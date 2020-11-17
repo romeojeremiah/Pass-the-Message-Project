@@ -24,6 +24,20 @@ body {
   color: var(--mainBlack);
 }
 
+#joke-btn{
+  margin-top: 4%;
+  border: 1px solid var(--lightBlue);
+}
+
+#joke-btn:hover{
+  background-color: aquamarine;
+}
+
+#loadAlert{
+  color: red;
+  display: none;
+}
+
 .feedback {
   display: none;
 }
